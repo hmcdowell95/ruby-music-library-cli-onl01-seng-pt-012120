@@ -32,6 +32,8 @@ class MusicLibraryController
       play_song
     when 'exit'
       exit
+    else
+      call
       
     end
   end
