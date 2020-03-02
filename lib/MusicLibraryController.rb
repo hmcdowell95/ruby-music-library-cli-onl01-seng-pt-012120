@@ -34,7 +34,6 @@ class MusicLibraryController
       exit
     else
       call
-      
     end
   end
     
