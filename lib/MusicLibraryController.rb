@@ -112,7 +112,7 @@ class MusicLibraryController
       musicarray = Song.all.sort{|a,b| a.name <=> b.name}
       song = musicarray[input - 1]
     end
-    puts ""
+    puts 
   end
   
 end
