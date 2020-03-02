@@ -109,10 +109,10 @@ class MusicLibraryController
     puts "Which song number would you like to play?"
     input = gets.strip.to_i
     if !(input > Song.all.size) || !(input < 1)
-      test = Song.all.sort{|a,b| a.name <=> b.name}
-      binding.pry
+      musicarray = Song.all.sort{|a,b| a.name <=> b.name}
+      song = musicarray[input - 1]
     end
-    
+    puts ""
   end
   
 end
